@@ -3,6 +3,8 @@ package com.company;
 Input: nums = [10,9,2,5,3,7,101,18]
 Output: 4
 Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
+
+this is dynamic programming. this code wont pass all testcases.
 */
 import java.util.ArrayList;
 import java.util.Arrays;
