@@ -18,6 +18,7 @@ If n=6, then the pattern should be like this :
 public class patternmatrix {
     public static void main(String[] args) {
         int n=6;
+        int m=n;
         int[][] a=new int[n][n];
         int start=0,end=n;
         int s=0,e=n;
@@ -40,11 +41,13 @@ public class patternmatrix {
             n--;
         }
 
-        for (int[] arr : a) {
-            for (int j = 0; j < a[0].length; j++) {
-                System.out.print(arr[j]);
-            }
-            System.out.println();
-        }
+     for (int i=0;i<m;i++)
+       {
+           for(int j=0;j<m;j++)
+           {
+               System.out.print(a[i][j]+" ");
+           }
+           System.out.println();
+       }
     }
 }
