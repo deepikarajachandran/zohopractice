@@ -1,5 +1,16 @@
 package com.company;
+/*
+            G 
+          G R 
+        G R A 
+      G R A M 
+    G R A M P 
+  G R A M P R 
+G R A M P R O 
 
+Process finished with exit code 0
+
+*/
 public class middlepattern {
     public static void main(String[] args) {
         String s="PROGRAM";
